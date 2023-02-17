@@ -45,14 +45,13 @@ return(
   <Alert 
   alert={alert} 
   />
-  <div className="container my-5">
+  <div className="container my-5">      
   <Routes>
           <Route exact path="/about" element={<About 
           mode={mode}
           />} />
-
-
-          <Route exact path="/home" element={ <TextForm
+          
+          <Route exact path="/" element={ <TextForm
           heading="Enter your text"
          mode={mode}
          alert={alert}
